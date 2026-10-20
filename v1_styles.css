@@ -1,0 +1,98 @@
+* {
+    zoom: 100%;
+}
+
+body {
+    background-color: rgb(1,10,50);
+    /*background-repeat: no-repeat;*/
+    /*border-image-slice: fill;*/
+
+    padding: 10px;
+    margin: 100px;
+    border-radius: 4px;
+}
+
+.contenedor, hr, #img {
+    border: solid;
+    border-color: yellow;
+    border-width: 1px;
+    display: grid;
+
+    /*
+        grid-template-columns: 1fr, 1fr;
+        gap: 20px;
+        grid-template-rows: 1fr, repeat(2,fr);
+        gap: 10px;
+        place-items:center;
+    */
+}
+
+.id0 {
+    opacity: 90%;
+    background-color: mediumblue;
+    margin: 15px;
+    padding: 15px;
+}
+
+.id1 {
+    font-family: 'Agency FB';
+    text-align: center;
+    color: mediumspringgreen;
+}
+
+.id2 {
+    margin: 5px;
+}
+
+.id3 {
+    background-color: darkgreen;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.txt {
+    font-family: 'Agency FB';
+    font-size: 40px;
+    text-align: left;
+    color: aqua;
+}
+
+nav {
+    margin-top: 3px;
+    padding: 3px;
+    display: inline-grid;
+}
+
+.Contenedor {
+    background-color: darkcyan;
+    font-family: Consolas;
+    font-size: 40px;
+    text-decoration: blink;
+    color: aqua;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+}
+
+a {
+    color: aqua;
+    font-size: 40px;
+    text-align: left;
+}
+
+ol, li, ul {
+    color: deeppink;
+    font-size: 50px;
+}
+
+.Contenedor:hover, a:hover {
+    font-style: italic;
+    color: orange;
+}
