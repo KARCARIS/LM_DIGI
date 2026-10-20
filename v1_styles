@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> Presentacion HOME</title>
+    <!-- <link rel="stylesheet" type="text/css" href="v1_styles.css" /> -->
+    <link rel="stylesheet" type="text/css" href="https://github.com/KARCARIS/LM_DIGI/v1_styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="id0">
+            <h1 class="id1" style="font-size: 80px">[...] &emsp; EN DESARROLLO &emsp; [...]</h1>
+            <hr />
+        </div>
+        <div class="id3" style="padding-bottom:5px">
+            <a href="index.html">Regresar</a>
+        </div>
+    </div>
+</body>
+</html>
